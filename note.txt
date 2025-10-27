@@ -1,0 +1,97 @@
+.Footer {
+  display: flex;
+  flex-flow: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.FooterContainer {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.FooterContainer .FooterSocial {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  width: 100lvw;
+  height: 95px;
+  background-color: #eeefef;
+  border-bottom: 25px solid red;
+  box-sizing: content-box;
+}
+
+.FooterOptions {
+  padding-top: 30px;
+  background-color: #262626;
+  width: 100%;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+
+.DesigendBy {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  height: 125px;
+}
+
+.DesigendBy > h2 {
+  color: #9f9f9f;
+  font-size: 15px;
+  font-weight: 400;
+}
+
+.DesigendBy > h3 {
+  color: #7b7b7b;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.FooterCategory {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+}
+
+.FooterCat {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+}
+
+.FooterCat h2 {
+  font-size: 16px;
+  font-weight: 400;
+  color: white;
+  padding: 20px 0;
+  border-top: 1px solid #ababab;
+  border-bottom: 1px solid #ababab;
+}
+
+.SubContent {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: start;
+  align-items: start;
+  gap: 5px;
+}
+
+.SubContent h5 {
+  font-size: 13px;
+  font-weight: 400;
+  color: #bcbec0;
+}
