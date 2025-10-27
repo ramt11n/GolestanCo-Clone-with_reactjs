@@ -1,0 +1,505 @@
+/* desktop */
+@media (min-width: 1025px) {
+  .Majale {
+  display: flex;
+  flex-flow: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.MajaleContainer {
+  width: 100%;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: space-between;
+  align-items: start;
+  gap: 25px;
+}
+
+.MajaleContainer > h2{
+    color: red;
+    font-size: 20px;
+    font-weight: 400;
+    margin: 40px 0;
+    margin-right: 21.5vw;
+}
+
+.MajaleTop {
+    width: 100%;
+  padding: 100px 0;
+  background-color: #cde4b0;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: start;
+  gap: 10px;
+}
+
+.MajaleBottom {
+    width: 100%;
+  padding: 100px 0;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: start;
+  gap: 10px;
+}
+
+.Recipe {
+  background-color: white;
+  width: 341px;
+  min-height: 600px;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: start;
+  align-items: start;
+  gap: 20px;
+  box-shadow: -4px 5px 22px -6px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: -4px 5px 22px -6px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: -4px 5px 22px -6px rgba(0, 0, 0, 0.75);
+}
+
+.Recipe img {
+  width: 100%;
+}
+
+.ProductIntroduce {
+  background-color: white;
+  width: 317px;
+  min-height: 450px;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: start;
+  align-items: start;
+  gap: 20px;
+  box-shadow: -4px 5px 22px -6px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: -4px 5px 22px -6px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: -4px 5px 22px -6px rgba(0, 0, 0, 0.75);
+}
+
+.Recipe h2 {
+  font-size: 20px;
+  font-weight: 400;
+  color: red;
+  padding: 0 10px;
+}
+
+.Recipe p {
+  font-size: 14px;
+  font-weight: 400;
+  color: #7a7a7a;
+  padding: 0 10px;
+}
+
+.Recipe button {
+  font-size: 14px;
+  font-weight: 400;
+  color: #7a7a7a;
+  background-color: white;
+  border: 1px solid #7a7a7a42;
+  padding: 7px 20px;
+  border-radius: 8px;
+  margin-right: 10px;
+  margin-bottom: 20px;
+  transition: 300ms;
+}
+
+.Recipe button:hover{
+  color: white;
+  background-color: red;
+}
+
+.ProductIntroduce h2 {
+  font-size: 20px;
+  font-weight: 400;
+  color: red;
+  padding: 0 10px;
+}
+
+.ProductIntroduce p {
+    height: 100px;
+  font-size: 14px;
+  font-weight: 400;
+  color: #7a7a7a;
+  padding: 0 10px;
+}
+
+.ProductIntroduce button {
+  font-size: 14px;
+  font-weight: 400;
+  color: #7a7a7a;
+  background-color: white;
+  border: 1px solid #7a7a7a42;
+  padding: 7px 20px;
+  border-radius: 8px;
+  margin-right: 10px;
+  margin-bottom: 20px;
+  transition: 300ms;
+}
+
+.ProductIntroduce button:hover{
+  color: white;
+  background-color: red;
+}
+
+.IframeWrapper {
+  position: relative;
+  width: 100%;
+}
+
+.IframeWrapper iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.VideoPlayer {
+  width: 100%;
+  border-radius: 8px;
+}
+
+}
+
+/* tablet */
+@media (min-width: 768px) and (max-width: 1024px) {
+  .Majale {
+  display: flex;
+  flex-flow: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.MajaleContainer {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: space-between;
+  align-items: start;
+  gap: 25px;
+}
+
+.MajaleContainer > h2{
+    color: red;
+    font-size: 20px;
+    font-weight: 400;
+    margin: 40px 0;
+    margin-right: 45px;
+}
+
+.MajaleTop {
+    width: 100vw;
+  padding: 100px 0;
+  background-color: #cde4b0;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: start;
+  gap: 10px;
+}
+
+.MajaleBottom {
+    width: 100vw;
+  padding: 100px 0;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: start;
+  gap: 10px;
+}
+
+.Recipe {
+  background-color: white;
+  width: 341px;
+  min-height: 400px;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: start;
+  align-items: start;
+  gap: 20px;
+  box-shadow: -4px 5px 22px -6px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: -4px 5px 22px -6px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: -4px 5px 22px -6px rgba(0, 0, 0, 0.75);
+}
+
+.Recipe:last-of-type {
+  display: none;
+}
+
+.Recipe img {
+  width: 100%;
+}
+
+.ProductIntroduce {
+  background-color: white;
+  width: 317px;
+  min-height: 350px;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: start;
+  align-items: start;
+  gap: 20px;
+  box-shadow: -4px 5px 22px -6px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: -4px 5px 22px -6px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: -4px 5px 22px -6px rgba(0, 0, 0, 0.75);
+}
+
+.ProductIntroduce:last-of-type {
+  display: none;
+}
+
+.Recipe h2 {
+  font-size: 20px;
+  font-weight: 400;
+  color: red;
+  padding: 0 10px;
+}
+
+.Recipe p {
+  font-size: 14px;
+  font-weight: 400;
+  color: #7a7a7a;
+  padding: 0 10px;
+}
+
+.Recipe button {
+  font-size: 14px;
+  font-weight: 400;
+  color: #7a7a7a;
+  background-color: white;
+  border: 1px solid #7a7a7a42;
+  padding: 7px 20px;
+  border-radius: 8px;
+  margin-right: 10px;
+  margin-bottom: 20px;
+  transition: 300ms;
+}
+
+.Recipe button:hover{
+  color: white;
+  background-color: red;
+}
+
+.ProductIntroduce h2 {
+  font-size: 20px;
+  font-weight: 400;
+  color: red;
+  padding: 0 10px;
+}
+
+.ProductIntroduce p {
+    height: 100px;
+  font-size: 14px;
+  font-weight: 400;
+  color: #7a7a7a;
+  padding: 0 10px;
+}
+
+.ProductIntroduce button {
+  font-size: 14px;
+  font-weight: 400;
+  color: #7a7a7a;
+  background-color: white;
+  border: 1px solid #7a7a7a42;
+  padding: 7px 20px;
+  border-radius: 8px;
+  margin-right: 10px;
+  margin-bottom: 20px;
+  transition: 300ms;
+}
+
+.ProductIntroduce button:hover{
+  color: white;
+  background-color: red;
+}
+
+.IframeWrapper {
+  position: relative;
+  width: 100%;
+}
+
+.IframeWrapper iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.VideoPlayer {
+  width: 100%;
+  border-radius: 8px;
+}
+
+}
+
+/* mobile */
+@media (max-width: 767px) {
+  .Majale {
+  display: flex;
+  flex-flow: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.MajaleContainer {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: space-between;
+  align-items: start;
+  gap: 25px;
+}
+
+.MajaleContainer > h2{
+    color: red;
+    font-size: 20px;
+    font-weight: 400;
+    margin: 40px 0;
+    margin-right: 10px;
+}
+
+.MajaleTop {
+    width: 100vw;
+  padding: 100px 10px;
+  background-color: #cde4b0;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: start;
+  gap: 10px;
+}
+
+.MajaleBottom {
+    width: 100vw;
+  padding: 100px 10px;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: start;
+  gap: 10px;
+}
+
+.Recipe {
+  background-color: white;
+  width: 341px;
+  min-height: 300px;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: start;
+  align-items: start;
+  gap: 20px;
+  box-shadow: -4px 5px 22px -6px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: -4px 5px 22px -6px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: -4px 5px 22px -6px rgba(0, 0, 0, 0.75);
+}
+
+.Recipe:last-of-type {
+  display: none;
+}
+
+.Recipe img {
+  width: 100%;
+}
+
+.ProductIntroduce {
+  background-color: white;
+  width: 317px;
+  min-height: 300px;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: start;
+  align-items: start;
+  gap: 20px;
+  box-shadow: -4px 5px 22px -6px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: -4px 5px 22px -6px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: -4px 5px 22px -6px rgba(0, 0, 0, 0.75);
+}
+
+.ProductIntroduce:last-of-type {
+  display: none;
+}
+
+.Recipe h2 {
+  font-size: 20px;
+  font-weight: 400;
+  color: red;
+  padding: 0 10px;
+}
+
+.Recipe p {
+  font-size: 14px;
+  font-weight: 400;
+  color: #7a7a7a;
+  padding: 0 10px;
+}
+
+.Recipe button {
+  font-size: 14px;
+  font-weight: 400;
+  color: #7a7a7a;
+  background-color: white;
+  border: 1px solid #7a7a7a42;
+  padding: 7px 20px;
+  border-radius: 8px;
+  margin-right: 10px;
+  margin-bottom: 20px;
+  transition: 300ms;
+}
+
+.Recipe button:hover{
+  color: white;
+  background-color: red;
+}
+
+.ProductIntroduce h2 {
+  font-size: 20px;
+  font-weight: 400;
+  color: red;
+  padding: 0 10px;
+}
+
+.ProductIntroduce p {
+    height: 100px;
+  font-size: 14px;
+  font-weight: 400;
+  color: #7a7a7a;
+  padding: 0 10px;
+}
+
+.ProductIntroduce button {
+  font-size: 14px;
+  font-weight: 400;
+  color: #7a7a7a;
+  background-color: white;
+  border: 1px solid #7a7a7a42;
+  padding: 7px 20px;
+  border-radius: 8px;
+  margin-right: 10px;
+  margin-bottom: 20px;
+  transition: 300ms;
+}
+
+.ProductIntroduce button:hover{
+  color: white;
+  background-color: red;
+}
+
+.IframeWrapper {
+  position: relative;
+  width: 100%;
+}
+
+.IframeWrapper iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.VideoPlayer {
+  width: 100%;
+  border-radius: 8px;
+}
+
+}

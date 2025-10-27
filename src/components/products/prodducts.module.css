@@ -1,0 +1,363 @@
+/* desktop */
+@media (min-width: 1025px) {
+  .Products {
+  display: flex;
+  flex-flow: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.ProductsContainer {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.ProductCard {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.ProductBanner{
+    position: relative;
+}
+
+.ProductBanner img{
+    width: 100%;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    border-top: 1px solid rgba(84, 84, 84, 0.196);
+    border-bottom: 1px solid rgba(84, 84, 84, 0.196);
+}
+
+.ProductHead{
+    padding-right: 40px;
+    display: flex;
+    flex-flow: column wrap;
+    background-color: red;
+    width: 20.7vw;
+    height: 97px;
+    position: absolute;
+    right: 17%;
+    bottom: 7.9%;
+}
+
+.ProductHead h2{
+    font-size: 29px;
+    font-weight: 400;
+    color: white;
+}
+
+.ProductHead span{
+    font-size: 16px;
+    font-weight: 400;
+    color: white;
+}
+
+.ProductDes{
+    width: 50%;
+    margin: 50px 0;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: right;
+    gap: 30px;
+}
+
+.ProductDes h2{
+    color: red;
+    font-size: 20px;
+
+}
+
+.ProductDes p{
+    font-size: 16px;
+    color: #7a7a7a;
+    font-weight: 400;
+    text-align: justify;
+    max-width: 660px;
+}
+
+.ProductDes p:empty{
+    display: none;
+}
+
+.ProductDes span{
+    color: red;
+}
+
+.ProductButtons{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: right;
+    align-items: center;
+    gap: 10px;
+}
+
+.ProductDes button{
+    cursor: pointer;
+    color: #7c7d7e;
+    font-size: 15px;
+    font-weight: 400;
+    background-color: white;
+    border: 1px solid rgba(106, 106, 106, 0.275);
+    padding: 12px 24px;
+    border-radius: 10px;
+    transition: 300ms;
+}
+
+.ProductDes button:hover{
+    color: rgb(255, 255, 255);
+    background-color: rgb(255, 0, 0);
+}
+
+
+.ProductDes button:empty{
+    display: none;
+}
+}
+
+/* tablet */
+@media (min-width: 768px) and (max-width: 1024px) {
+  .Products {
+  display: flex;
+  flex-flow: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.ProductsContainer {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.ProductCard {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.ProductBanner{
+    position: relative;
+}
+
+.ProductBanner img{
+    width: 100%;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    border-top: 1px solid rgba(84, 84, 84, 0.196);
+    border-bottom: 1px solid rgba(84, 84, 84, 0.196);
+}
+
+.ProductHead{
+    padding-right: 40px;
+    display: flex;
+    flex-flow: column wrap;
+    background-color: red;
+    width: 40vw;
+    height: 97px;
+    position: absolute;
+    right: 5%;
+    bottom: 7.9%;
+}
+
+.ProductHead h2{
+    font-size: 29px;
+    font-weight: 400;
+    color: white;
+}
+
+.ProductHead span{
+    font-size: 16px;
+    font-weight: 400;
+    color: white;
+}
+
+.ProductDes{
+    margin: 50px 0;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: right;
+    gap: 30px;
+}
+
+.ProductDes h2{
+    color: red;
+    font-size: 20px;
+
+}
+
+.ProductDes p{
+    font-size: 16px;
+    color: #7a7a7a;
+    font-weight: 400;
+    text-align: justify;
+    max-width: 660px;
+}
+
+.ProductDes p:empty{
+    display: none;
+}
+
+.ProductDes span{
+    color: red;
+}
+
+.ProductButtons{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: right;
+    align-items: center;
+    gap: 10px;
+}
+
+.ProductDes button{
+    cursor: pointer;
+    color: #7c7d7e;
+    font-size: 15px;
+    font-weight: 400;
+    background-color: white;
+    border: 1px solid rgba(106, 106, 106, 0.275);
+    padding: 12px 24px;
+    border-radius: 10px;
+    transition: 300ms;
+}
+
+.ProductDes button:hover{
+    color: rgb(255, 255, 255);
+    background-color: rgb(255, 0, 0);
+}
+
+
+.ProductDes button:empty{
+    display: none;
+}
+}
+
+/* mobile */
+@media (max-width: 767px) {
+  .Products {
+  display: flex;
+  flex-flow: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.ProductsContainer {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.ProductCard {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.ProductBanner{
+    position: relative;
+}
+
+.ProductBanner img{
+    width: 100%;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    border-top: 1px solid rgba(84, 84, 84, 0.196);
+    border-bottom: 1px solid rgba(84, 84, 84, 0.196);
+}
+
+.ProductHead{
+    padding-right: 40px;
+    display: flex;
+    flex-flow: column wrap;
+    background-color: red;
+    width: 100vw;
+    height: 97px;
+    position: absolute;
+    bottom: 0;
+}
+
+.ProductHead h2{
+    font-size: 29px;
+    font-weight: 400;
+    color: white;
+}
+
+.ProductHead span{
+    font-size: 16px;
+    font-weight: 400;
+    color: white;
+}
+
+.ProductDes{
+    padding: 10px;
+    margin: 50px 0;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: right;
+    gap: 30px;
+}
+
+.ProductDes h2{
+    color: red;
+    font-size: 20px;
+
+}
+
+.ProductDes p{
+    font-size: 16px;
+    color: #7a7a7a;
+    font-weight: 400;
+    text-align: justify;
+    max-width: 660px;
+}
+
+.ProductDes p:empty{
+    display: none;
+}
+
+.ProductDes span{
+    color: red;
+}
+
+.ProductButtons{
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: right;
+    align-items: start;
+    gap: 10px;
+}
+
+.ProductDes button{
+    cursor: pointer;
+    color: #7c7d7e;
+    font-size: 15px;
+    font-weight: 400;
+    background-color: white;
+    border: 1px solid rgba(106, 106, 106, 0.275);
+    padding: 12px 24px;
+    border-radius: 10px;
+    transition: 300ms;
+}
+
+.ProductDes button:hover{
+    color: rgb(255, 255, 255);
+    background-color: rgb(255, 0, 0);
+}
+
+
+.ProductDes button:empty{
+    display: none;
+}
+}
